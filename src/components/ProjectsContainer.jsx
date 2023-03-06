@@ -10,9 +10,7 @@ function ProjectsContainer() {
         <section className='projects-container'>
             <h2>Projetos</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-                omnis sunt reiciendis temporibus minus dolorem corrupti laboriosam praesentium modi magnam.
-                Fuga architecto iusto dolore a quia tempore beatae quaerat corrupti!
+                Alguns projetos desenvolvidos usandos as linguagens  e bilbiotécas descritas a cima.
             </p>
 
             <div className='projcts-grid'>
