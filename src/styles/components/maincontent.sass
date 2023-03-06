@@ -1,0 +1,61 @@
+@use "../variables"
+@use "../mixins"
+
+#main-content
+
+    background-color: variables.$bg-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color
+        font-size: 2.2rem
+        margin-bottom: 2.2rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+
+        &::after
+            @include mixins.gradient-border
+
+    p
+        color: variables.$text-color-secondary
+        margin-bottom: 1rem
+        line-height: 1.4rem
+
+    .projects-container
+        height: 100vh
+        height: auto
+
+    .projcts-grid
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        grid-auto-rows: minmax(200px, auto )
+        justify-content: center
+        gap: 1rem
+
+        .card-projects
+            display: flex
+            width: 100%
+            height: auto
+            flex-direction: column
+            align-items: flex-start
+            gap: 1rem
+            background-size: cover
+            background-position: center
+
+            a
+                display: flex
+                align-items: center
+                justify-content: center
+                text-decoration: none
+                color: variables.$text-color
+                font-weight: bold
+                background: rgba(0, 0, 0, 0.6)
+                width: 150px
+                padding: 0.8rem
