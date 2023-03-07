@@ -9,7 +9,7 @@ function Informationcontainer() {
                 <AiFillPhone id='phone-icon' />
                 <div>
                     <h3>Telefone</h3>
-                    <p>(11)93223-7059</p>
+                    <p>(11)93486-7766</p>
                 </div>
             </div>
             <div className="info-card">
