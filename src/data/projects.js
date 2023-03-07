@@ -1,19 +1,21 @@
-
+import Gyn1 from '../img/react-Gyn1.png'
+import Gyn2 from '../img/react-Gyn2.png'
+import EgaHost from '../img/EGAhost.png'
 
 export const myPrpject = [
     {
         name: 'React Gyn Fit 1',
-        image: "https://images2.imgbox.com/17/c3/Ydc5sOcf_o.png",
+        image: Gyn1,
         link: 'https://gyn-fitness-react.vercel.app/'
     },
     {
         name: 'React Gyn Fit 2',
-        image: 'https://images2.imgbox.com/2d/c1/w39W3olg_o.png',
+        image: Gyn2,
         link: 'https://react-fitness-app-nu.vercel.app/'
     },
     {
         name: 'EGA Host',
-        image: 'https://images2.imgbox.com/0d/93/JD40O4W3_o.png',
+        image: EgaHost,
         link: 'https://site-ega-host-feito-em-html-css-media-query.vercel.app/'
     }
 ]
